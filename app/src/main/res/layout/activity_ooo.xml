@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll_ip"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_gradient">
+
+    <EditText
+        android:id="@+id/full_name_ooo"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Наименование клиента"
+        android:inputType="textEmailAddress"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/abbreviated_name_ooo"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="В лице" />
+
+    <EditText
+        android:id="@+id/based_ooo"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="На основании" />
+
+    <EditText
+        android:id="@+id/legal_address_ooo"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Юридический адрес" />
+
+    <EditText
+        android:id="@+id/mail_address_ooo"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Почтовый адрес" />
+
+    <EditText
+        android:id="@+id/delivery_method_PRD_ooo"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Способ доставки ПРД"/>
+
+    <EditText
+        android:id="@+id/INN_ooo"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ИНН" />
+
+    <EditText
+        android:id="@+id/KPP_ooo"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="КПП" />
+
+    <EditText
+        android:id="@+id/BIK_ooo"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="БИК" />
+
+    <EditText
+        android:id="@+id/name_of_the_bank_ooo"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Нименование банка" />
+
+    <EditText
+        android:id="@+id/P_C_ooo"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Р/С" />
+    <EditText
+        android:id="@+id/contact_phone_ooo"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Котактный телефон" />
+
+    <EditText
+        android:id="@+id/subscriber_address_ooo"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Адрес установки абонетского оборудования" />
+
+    <EditText
+        android:id="@+id/technology_ooo"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Технология подключеия" />
+    <EditText
+        android:id="@+id/technical_feasibility_check_ooo"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Проверка тех. возможности" />
+    <EditText
+        android:id="@+id/tariff_plan_ooo"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Тарифный план" />
+    <EditText
+        android:id="@+id/subscription_fee_TP_ooo"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Абон. плата по ТП" />
+    <EditText
+        android:id="@+id/equipment_ooo"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Оборудование" />
+    <EditText
+        android:id="@+id/model_SN_ooo"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Модель/ сер. номер" />
+    <EditText
+        android:id="@+id/additional_services_ooo"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Доп. Услуги"/>
+    <EditText
+        android:id="@+id/date_instal_ooo"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Дата инсталляции" />
+    <EditText
+        android:id="@+id/additional_info_ooo"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Доп. информация" />
+    <EditText
+        android:id="@+id/manager_ooo"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Менеджер"/>
+
+    <Button
+        android:id="@+id/send_email_btn_ooo"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="Отправить email" />
+    </LinearLayout>
+</ScrollView>

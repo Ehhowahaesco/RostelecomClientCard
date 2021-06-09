@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="Tariffs">
+        <item>Видеонаблюдение</item>
+        <item>ВАТС</item>
+        <item>Внутренняя ip камера</item>
+        <item>Цифровое ТВ</item>
+        <item>FTTX(mono)</item>
+        <item>Городской телефон(медь)</item>
+        <item>ОЖН</item>
+        <item>Промо-пакеты</item>
+
+    </string-array>
+</resources>

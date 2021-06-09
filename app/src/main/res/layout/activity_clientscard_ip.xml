@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll_ip"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        >-->
+<!--    </LinearLayout>-->
+
+    <EditText
+        android:id="@+id/name_ip"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Наименование клиента в лице"
+        />
+    <EditText
+        android:id="@+id/based_ip"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="На основании"
+        />
+    <EditText
+        android:id="@+id/legal_address_ip"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Юридический адрес"
+        />
+    <EditText
+        android:id="@+id/mail_address_ip"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Почтовый адрес"
+
+       />
+    <EditText
+        android:id="@+id/delivery_method_PRD_ip"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Способ доставки ПРД"
+       />
+    <EditText
+        android:id="@+id/INN_ip"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ИНН"
+        />
+
+    <EditText
+        android:id="@+id/KPP_ip"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="КПП"
+        />
+
+    <EditText
+        android:id="@+id/BIK_ip"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="БИК"/>
+
+    <EditText
+        android:id="@+id/name_of_bank_institution_ip"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Наименование банка"/>
+    <EditText
+        android:id="@+id/R_S_ip"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Р/С"/>
+    <EditText
+        android:id="@+id/contact_number_ip"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Контактный телефон"/>
+
+    <EditText
+        android:id="@+id/email_ip"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="e-mail для ЛК"/>
+    <EditText
+        android:id="@+id/subscriber_address_ip"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Адрес установки абонентского оборуования"/>
+    <EditText
+        android:id="@+id/technology_ip"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Технология подключения"/>
+    <EditText
+        android:id="@+id/technical_feasibility_check_ip"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Проверка тех.возможности"/>
+    <EditText
+        android:id="@+id/tariff_plan_ip"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Тарифный план"/>
+    <EditText
+        android:id="@+id/subscriber_fee_ip"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Абонентская плата по тп"/>
+    <EditText
+        android:id="@+id/equipment_ip"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Оборудование"/>
+    <EditText
+        android:id="@+id/model_SN_ip"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Модель/ сер.номер"/>
+    <EditText
+        android:id="@+id/additional_services_ip"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Доп. Услуги"/>
+    <EditText
+        android:id="@+id/date_instal_ip"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Дата инсталл  яции"/>
+    <EditText
+        android:id="@+id/additional_info_ip"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Доп. информация"
+        />
+    <EditText
+        android:id="@+id/manager_ip"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Менеджер"
+        />
+    <EditText
+        android:id="@+id/curator_ip"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Куратор"
+        />
+
+    <Button
+        android:id="@+id/send_email_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="send Email" />
+
+
+</LinearLayout>
+</ScrollView>
